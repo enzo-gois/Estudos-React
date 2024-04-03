@@ -7,6 +7,9 @@ import ValorDoContexto from './components/ValorDoContexto'
 import Contador from './components/Contador'
 import DisplayWindowSize from './components/DisplayWindowSize'
 import Container from './components/Container'
+import PerfilDeUsuario from './components/PerfilDeUsuario'
+import CalculoPesado from './components/CalculoPesado'
+import ContandoCallback from './components/ContandoCallback'
 
 function App() {
   return (
@@ -30,6 +33,13 @@ function App() {
         <h1>Titulo da seção</h1>
         <p>Este é o meu subtitulo</p>
       </Container>
+      {/* Sincronizar o esatdo com props */}
+      {/* prop => componete => chamada de API => resulta em um dado */}
+      <PerfilDeUsuario usuarioId={1} />
+      <PerfilDeUsuario usuarioId={2} />
+      {/* useMemo e useCallback */}
+      <CalculoPesado numero={5} />
+      <ContandoCallback />
     </>
   )
 }
