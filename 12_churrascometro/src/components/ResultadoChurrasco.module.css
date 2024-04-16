@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  background-color: #FDFDFD;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.resultText {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+}
+
+.inputLabel {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.inputField {
+  padding: 5px;
+  width: 150px;
+}
+
+.checkBoxInput {
+  margin-right: 10px;
+}
+
+.resetButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.resetButton:hover {
+  background-color: #3b923e;
+}
+
+.error {
+  color: #cb3535;
+  margin-top: 5px;
+  font-style: italic;
+}
